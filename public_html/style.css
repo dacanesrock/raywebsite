@@ -3089,6 +3089,57 @@ ul.countdown li p {
 .kode_volunteer_btn a:hover{
 	opacity:0.7;
 }
+.kode_info_btn{
+	margin:0 auto;
+	position:relative;
+	width:60%;
+	overflow:hidden;
+	padding-bottom: 2%;
+}
+.kode_info_btn a{
+	display:inline-block;
+	position:relative;
+	float:left;
+	width:50%;
+	z-index:99999;
+	padding:10px 15px 10px 20px;
+}
+.kode_info_btn a.donate:before{
+	content: "";
+	position: absolute;
+    height: 100%;
+    left: -200px;
+    right: -4px;
+    top: 0;
+    transform:skewX(28deg);
+	-moz-transform:skewX(28deg);
+	-webkit-transform:skewX(28deg);
+    z-index: -1;
+}
+.kode_info_btn a.donate i{
+	display:inline-block;
+	width:55px;
+	height:55px;
+	background-color:#fff;
+	font-size:28px;
+	border-radius:100%;
+	box-shadow:0px 0px 0px 5px rgba(247,165,149,0.7);
+	text-align:center;
+	line-height:48px;
+	vertical-align:middle;
+}
+.kode_info_btn a.donate span{
+	display:inline-block;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	padding-left:15px;
+	padding-top:1px;
+	font-size:15px;
+}
+.kode_info_btn a:hover{
+	opacity:0.7;
+}
 /*
 	  ==============================================================
 		   BECOME A VOLUNTEER WRAP CSS END
